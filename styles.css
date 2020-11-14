@@ -1,0 +1,73 @@
+:root {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    
+    padding: 10px;
+    height: 100vh;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container img {
+    max-height: 45rem;
+    width: auto;
+}
+
+.img-container a {
+    text-align: center;
+    font-weight: 300;
+}
+
+.details {
+    inline-size: -webkit-fill-available;
+    /*inline-size is a logical property that defines the width of an element when the writing-mode is horizontal, or the height of the element when the writing-mode is vertical.*/
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    margin: .9rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sinopsis {
+    text-align: center;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+
+.details a {
+    text-align: center;
+    font-weight: 300;
+}
+
+.sinopsis + p {
+    margin-top: 0;
+}
+
+.video-header {
+    text-align: center;
+    font-weight: 700;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
